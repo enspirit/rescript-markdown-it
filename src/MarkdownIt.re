@@ -1,3 +1,3 @@
-[@bs.module "markdown-it"] [@bs.val] 
-external render : string => Js.nullable(string) = "render";
-let render = a => render(a) |> Js.Nullable.toOption;
+type tMarkdownIt;
+[@bs.new] [@bs.module] external createMarkdownIt : unit => tMarkdownIt = "markdown-it";
+[@bs.send] external render: (tMarkdownIt, string) => string = "render";

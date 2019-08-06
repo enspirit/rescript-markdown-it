@@ -7,16 +7,9 @@ let () =
       () => {
         test("#render", () =>
           expect(
-            MarkdownIt.render("# markdown-it rulezz!")
-            |> (
-              result =>
-                switch (result) {
-                | Some(v) => v
-                | None => raise(Not_found)
-                }
-            ),
+            MarkdownIt.render(MarkdownIt.createMarkdownIt(), "# markdown-it rulezz!")
           )
-          |> toBe("<h1>markdown-it rulezz!</h1>")
+          |> toBe("<h1>markdown-it rulezz!</h1>\n")
         );
       }
     ),
