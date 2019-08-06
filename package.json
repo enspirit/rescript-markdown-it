@@ -25,9 +25,9 @@
     "markdown-it": "^9.0.1"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.3.3",
-    "bs-platform": "^3.1.5",
-    "jest": "^22.1.2"
+    "@glennsl/bs-jest": "^0.4.9",
+    "bs-platform": "^5.0.6",
+    "jest": "^24.8.0"
   },
   "jest": {
     "testURL": "http://localhost/"
@@ -37,7 +37,6 @@
     "bsconfig.json"
   ],
   "dependencies": {
-    "bs-jest": "^0.3.2",
     "bucklescript": "0.0.2",
     "markdown-it": "^9.0.1"
   }
