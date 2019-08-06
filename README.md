@@ -13,9 +13,10 @@ npm i bs-markdown-it -s
 ## Basic usage
 
 ```reasonml
-MarkdownIt.render("# This is a markdown title")
+MarkdownIt.render(MarkdownIt.createMarkdownIt(), "# This is a markdown title")
 ```
 
-# Available Options
+# Developers section
 
-- [ ] render: option(string)
+Specific BuckleScript aliases (`clean`, `build`, `watch`, `test`...) are defined
+in the `package.json` file to be used with `npm run [alias]`.
