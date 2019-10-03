@@ -1,5 +1,5 @@
 {
-  "name": "bs-markdown-it",
+  "name": "@enspirit/bs-markdown-it",
   "version": "0.2.1",
   "description": "BuckleScript bindings for MardownIt.js",
   "main": "src/MarkdownIt.bs.js",
