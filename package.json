@@ -2,7 +2,7 @@
   "name": "bs-markdown-it",
   "version": "0.2.1",
   "description": "BuckleScript bindings for MardownIt.js",
-  "main": "index.js",
+  "main": "src/MarkdownIt.bs.js",
   "homepage": "https://github.com/enspirit/bs-markdown-it#readme",
   "repository": {
     "type": "git",
@@ -16,14 +16,11 @@
     "markdown"
   ],
   "scripts": {
-    "prepublish": "npm run build",
+    "prepare": "npm run build",
     "clean": "bsb -clean-world",
     "build": "bsb -make-world",
     "watch": "bsb -make-world -w",
     "test": "jest"
-  },
-  "peerDependencies": {
-    "markdown-it": "^9.0.1"
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
@@ -33,12 +30,7 @@
   "jest": {
     "testURL": "http://localhost/"
   },
-  "files": [
-    "src/MarkdownIt.re",
-    "bsconfig.json"
-  ],
   "dependencies": {
-    "bucklescript": "0.0.2",
     "markdown-it": "^9.0.1"
   }
 }
