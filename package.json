@@ -1,6 +1,6 @@
 {
   "name": "@enspirit/rescript-markdown-it",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "BuckleScript bindings for MardownIt.js",
   "main": "src/MarkdownIt.bs.js",
   "homepage": "https://github.com/enspirit/rescript-markdown-it#readme",
