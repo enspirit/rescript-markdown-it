@@ -1,12 +1,12 @@
 {
-  "name": "@enspirit/bs-markdown-it",
+  "name": "@enspirit/rescript-markdown-it",
   "version": "0.4.1",
   "description": "BuckleScript bindings for MardownIt.js",
   "main": "src/MarkdownIt.bs.js",
-  "homepage": "https://github.com/enspirit/bs-markdown-it#readme",
+  "homepage": "https://github.com/enspirit/rescript-markdown-it#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/enspirit/bs-markdown-it.git"
+    "url": "git+https://github.com/enspirit/rescript-markdown-it.git"
   },
   "author": "ygu",
   "license": "ISC",
@@ -25,7 +25,7 @@
   },
   "devDependencies": {
     "@glennsl/bs-jest": "^0.4.9",
-    "bs-platform": "^5.0.6",
+    "bs-platform": "^8.2.0",
     "jest": "^24.8.0"
   },
   "jest": {

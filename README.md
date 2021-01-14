@@ -1,6 +1,6 @@
-# bs-markdown-it
+# rescript-markdown-it
 
-[BuckleScript](https://bucklescript.github.io) bindings for [markdown-it](https://github.com/markdown-it/markdown-it).
+[ReScript](https://rescript-lang.org) bindings for [markdown-it](https://github.com/markdown-it/markdown-it).
 
 # Usage
 
