@@ -12,5 +12,5 @@ MarkdownIt.render(MarkdownIt.createMarkdownIt(), "# This is a markdown title")
 
 First and formost, configure your environment with `npm install`.
 
-Specific BuckleScript aliases (`clean`, `build`, `watch`, `test`...) are defined
+Specific ReScript aliases (`clean`, `build`, `watch`, `test`...) are defined
 in the `package.json` file to be used with `npm run [alias]`.
