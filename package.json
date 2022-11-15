@@ -23,8 +23,8 @@
     "testw": "jest --watch"
   },
   "devDependencies": {
-    "@glennsl/bs-jest": "^0.4.9",
-    "jest": "^24.8.0",
+    "@glennsl/bs-jest": "^0.7.0",
+    "jest": "^29.3.1",
     "rescript": "^10.0.1"
   },
   "jest": {
