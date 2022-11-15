@@ -1,6 +1,6 @@
 {
+  "version": "10.0.1",
   "name": "@enspirit/rescript-markdown-it",
-  "version": "2.0.0",
   "sources": [
     {
         "dir" : "src",
@@ -11,15 +11,13 @@
         "type": "dev"
     }
   ],
-  "package-specs": {
-    "module": "commonjs",
-    "in-source": true
-  },
-  "suffix": ".bs.js",
   "bs-dependencies": [],
   "bs-dev-dependencies": ["@glennsl/bs-jest"],
   "warnings": {
     "error" : "+101"
   },
-  "refmt": 3
+  "package-specs": {
+    "module": "commonjs",
+    "in-source": true
+  }
 }
