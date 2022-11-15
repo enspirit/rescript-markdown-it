@@ -31,6 +31,6 @@
     "testURL": "http://localhost/"
   },
   "dependencies": {
-    "markdown-it": "^9.0.1"
+    "markdown-it": "^12.3.2"
   }
 }
